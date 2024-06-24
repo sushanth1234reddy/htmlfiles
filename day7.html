@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day7</title>
+</head>
+<body>
+    <h1 align="center" >Registration Form</h1>
+<form align="center" action="day6_task_login.html">
+    <label for="finame"><b>First Name:</b></label>
+    <input type="text" id="finame" name="first_name" value="" placeholder="enter your fname" required><br><br>
+    <label for="liname"><b>Last Name:</b></label>
+    <input type="text" id="liname" name="last_name" value="" placeholder="enter your lname" required><br><br>
+    <label for="fullname"><b>Username:</b></label>
+    <input type="text" id="fullname" name="full_name" value="" placeholder="enter your username" required><br><br>
+    <label for="mail"><b>Email</b>:</label>
+    <input type="email" id="mail" name="mail" value="" placeholder="enter your mail" required><br><br>
+    <label for="pass"><b>Password:</b></label>
+    <input type="password" id="pass" name="pass" value="" placeholder="********" required><br><br>
+    <label for="pno"><b>Phone No:</b></label>
+    <input type="tel" id="pass" name="phoneNo" value="" placeholder="9848720000" required pattern="[0-9]{10}"><br>
+    <p><b>Gender</b></p>
+    <input type="radio" id="male" name="gender" value="">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="">
+    <label for="other">Other</label>
+    <p><b>Programming Languages</b></p>
+    <input type="checkbox" id="java" name="prog" value="">
+    <label for="java">Java</label>
+    <input type="checkbox" id="python" name="prog" value="">
+    <label for="python">Python</label>
+    <input type="checkbox" id="Javascript" name="prog" value="">
+    <label for="Javascript">Javascript</label><br><br>
+    <label for="education"><b>Highest Qualification</b></label><br>
+    <select name="education" id="education">
+        <option value=""></option>
+        <option value="">B.Tech</option>
+        <option value="">Intermediate</option>
+        <option value="">10th</option>
+    </select><br><br>
+    <label for="dt"><b>Date and Time of Registration</b></label>
+    <input type="datetime-local" name="dt" id="dt"><br><br>
+    <input type="checkbox" id="check" name="rights" value="">
+    <label for="check">I agree the terms and conditions mentioned below</label><br>
+    <textarea rows="5" cols="60">
+        You agree to use this site only for lawful purposes, and in a manner which does not infringe the rights, or restrict, or inhibit the use and enjoyment of the site by any third party.
+    </textarea><br>
+    <input type="submit" value="Register">  <input type="reset">
+
+</form>    
+
+</body>
+</html>
